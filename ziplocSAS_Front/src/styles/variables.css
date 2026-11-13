@@ -1,0 +1,84 @@
+:root {
+  /* =====================
+     🎨 BACKGROUND LAYER
+  ====================== */
+  --color-bg: #05050a; /* negro menos puro = más premium */
+  --color-panel: #0a0a22;
+  --color-surface: #12124a;
+
+  /* capas extra (esto te da profundidad real) */
+  --color-surface-2: #161664;
+  --color-surface-3: #1b1b78;
+
+  /* =====================
+     ⚡ ACCENT SYSTEM
+  ====================== */
+  --color-accent: #2f2fff; /* más vivo, menos apagado */
+  --color-accent-soft: rgba(47, 47, 255, 0.15);
+  --color-accent-glow: rgba(47, 47, 255, 0.35);
+
+  --color-border: rgba(75, 75, 215, 0.35);
+  --color-border-strong: rgba(47, 47, 255, 0.6);
+
+  /* =====================
+     🧠 TEXT HIERARCHY
+  ====================== */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #9aa0ff;
+  --color-text-muted: #6b6bd6;
+
+  /* =====================
+     🚨 STATUS COLORS
+  ====================== */
+  --color-error: #ff4d4d;
+  --color-success: #2fe38a;
+  --color-warning: #ffcc66;
+
+  /* =====================
+     ✍️ TYPOGRAPHY
+  ====================== */
+  --font-family: 'Inter', system-ui, sans-serif;
+
+  --font-size-label: 12px;
+  --font-size-body: 14px;
+  --font-size-heading: 18px;
+  --font-size-title: 26px;
+  --font-size-value: 34px;
+  --font-size-value-lg: 52px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* =====================
+     📐 SPACING SYSTEM
+  ====================== */
+  --spacing-xs: 6px;
+  --spacing-sm: 12px;
+  --spacing-md: 20px;
+  --spacing-lg: 32px;
+  --spacing-xl: 56px;
+
+  /* =====================
+     ⚡ ANIMATIONS
+  ====================== */
+  --transition-fast: 120ms ease;
+  --transition-base: 180ms ease;
+  --transition-slow: 260ms ease;
+
+  /* =====================
+     🌫️ SHADOW SYSTEM
+  ====================== */
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+  --shadow-card-hover:
+          0 15px 45px rgba(47, 47, 255, 0.18),
+          0 5px 20px rgba(0, 0, 0, 0.4);
+
+  --shadow-input-focus:
+          0 0 0 3px rgba(47, 47, 255, 0.25);
+
+  --shadow-glow:
+          0 0 25px rgba(47, 47, 255, 0.25);
+}
